@@ -38,6 +38,7 @@ public class D_While {
 			number++;
 			
 			if (number == 20) break;
+			
 		}		
 	}
 }

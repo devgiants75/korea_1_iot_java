@@ -59,3 +59,6 @@ build/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+# .gitignore에서 다음 항목을 제거하거나 주석 처리
+.metadata
