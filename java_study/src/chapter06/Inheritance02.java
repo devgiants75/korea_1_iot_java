@@ -10,6 +10,7 @@ package chapter06;
 
 class Mammal {
 	String name = "Parent";
+	int number =10;
 	
 	Mammal() {
 		System.out.println("빈 부모 생성자 - 인스턴스 생성");
@@ -18,6 +19,10 @@ class Mammal {
 	Mammal(String name) {
 		// Mammal 클래스로 생성되는 각 객체(this)
 		this.name = name;
+	}
+	
+	void displayMammal() {
+		System.out.println(name);
 	}
 }
 
@@ -64,5 +69,9 @@ public class Inheritance02 {
 		myCat.greet();
 //		자식: Child
 //		부모: choco
+		myCat.displayMammal(); // choco
+		
+		Cat numberCat = new Cat();
+		numberCat.number = 5;
 	}
 }
