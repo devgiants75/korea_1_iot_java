@@ -89,6 +89,6 @@ public class JavaLang {
 		System.out.println(ch); // e
 		
 		int index = message.indexOf("World");
-		System.out.println(index);
+		System.out.println(index); // 7
 	}
 }
