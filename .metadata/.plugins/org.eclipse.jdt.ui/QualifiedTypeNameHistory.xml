@@ -7,4 +7,21 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="chapter05.Calculator"/>
     <fullyQualifiedTypeName name="chapter05.Example"/>
+    <fullyQualifiedTypeName name="chapter05.BaseballPlayer"/>
+    <fullyQualifiedTypeName name="chapter05.Calc"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="chapter05.Restaurant"/>
+    <fullyQualifiedTypeName name="chapter06.DogClass"/>
+    <fullyQualifiedTypeName name="chapter06.AnimalClass"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chapter06.CatClass"/>
+    <fullyQualifiedTypeName name="chapter07.PrivateClass"/>
+    <fullyQualifiedTypeName name="chapter07.DefaultClass"/>
+    <fullyQualifiedTypeName name="otherPackage.ParentClass"/>
+    <fullyQualifiedTypeName name="chapter07.ProtectedClass"/>
+    <fullyQualifiedTypeName name="chapter07.A_Modifier"/>
+    <fullyQualifiedTypeName name="chapter07.Example"/>
+    <fullyQualifiedTypeName name="chapter07.Student"/>
+    <fullyQualifiedTypeName name="chapter07.MyFinalClass"/>
+    <fullyQualifiedTypeName name="chapter07.ChildClass"/>
 </qualifiedTypeNameHistroy>
