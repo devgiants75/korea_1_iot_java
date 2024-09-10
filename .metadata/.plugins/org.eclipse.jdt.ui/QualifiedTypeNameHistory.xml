@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="chapter05.Calculator"/>
     <fullyQualifiedTypeName name="chapter05.Example"/>
     <fullyQualifiedTypeName name="chapter05.BaseballPlayer"/>
@@ -24,4 +23,27 @@
     <fullyQualifiedTypeName name="chapter07.Student"/>
     <fullyQualifiedTypeName name="chapter07.MyFinalClass"/>
     <fullyQualifiedTypeName name="chapter07.ChildClass"/>
+    <fullyQualifiedTypeName name="chapter08.Subway"/>
+    <fullyQualifiedTypeName name="chapter08.AnimalChecker"/>
+    <fullyQualifiedTypeName name="chapter08.Animal"/>
+    <fullyQualifiedTypeName name="chapter09.Human"/>
+    <fullyQualifiedTypeName name="chapter09.Police"/>
+    <fullyQualifiedTypeName name="chapter09.PlayingCard"/>
+    <fullyQualifiedTypeName name="chapter09.Flyable"/>
+    <fullyQualifiedTypeName name="chapter09.Example2"/>
+    <fullyQualifiedTypeName name="chapter09.ExmpleClass"/>
+    <fullyQualifiedTypeName name="chapter09.Example1"/>
+    <fullyQualifiedTypeName name="chapter09.MobileApp"/>
+    <fullyQualifiedTypeName name="chapter09.GameApp"/>
+    <fullyQualifiedTypeName name="chapter09.Orange"/>
+    <fullyQualifiedTypeName name="chapter09.Fruit"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="chapter10.CustomException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="chapter10.MyClass"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>
