@@ -1,5 +1,8 @@
 package chapter11;
 
+import java.util.HashMap;
+import java.util.Map;
+
 // Map 인터페이스
 // 키(key)와 값(value)의 쌍으로 요소를 저장하는 데이터 구조
 // - 키는 고유한 데이터(하나의 값)를 가짐
@@ -44,10 +47,26 @@ public class E_Map {
 		// 래퍼 클래스(Wrapper Class): 기본 데이터 타입을 객체로 다루기 위해 사용
 		// EX) String, Integer, Boolean 등
 		
+		Map<String, Integer> students = new HashMap<String, Integer>();
+		// 이름(키), 나이(값)
 		
+		students.put("이승아", 30);
+		students.put("이도경", 30);
+		students.put("김명진", 34);
 		
+		System.out.println(students); // {이승아=30, 김명진=34, 이도경=30}
 		
+		System.out.println(students.get("이도경")); // 30
 		
+		students.remove("이승아");
+		System.out.println(students); // {김명진=34, 이도경=30}
 		
+		System.out.println(students.containsKey("이도경")); // true
+		System.out.println(students.containsKey("이지훈")); // false
+		
+		System.out.println(students.size()); // 2
+		
+		System.out.println(students.keySet()); // [김명진, 이도경]
+		System.out.println(students.values()); // [34, 30]
 	}
 }
