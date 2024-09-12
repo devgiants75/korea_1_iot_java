@@ -52,9 +52,4 @@ public class Book {
 	public boolean isAvaliable() {
 		return isAvailable;
 	}
-	
-	
-	
-	
-	
 }
