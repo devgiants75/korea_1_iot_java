@@ -49,11 +49,14 @@ public class Main {
 			member1.borrowBook(book6);
 			
 			member2.borrowBook(book7);
+			member2.returnBook(book7);
 			
-			member3.borrowBook(book7);
+			member3.borrowBook(book7); // 조승범회원이 Hi(을)를 대여하였습니다.
 			
 		} catch (BookAlreadyBorrowedException e) {
 			System.out.println(e.getMessage()); // Hi(은)는 이미 대여 중입니다.
+		} catch (RuntimeException e) {
+			System.out.println(e.getMessage());
 		}
 		
 	}

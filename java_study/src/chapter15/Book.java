@@ -21,6 +21,9 @@ public class Book {
 	
 	// cf) 메서드명 옆의 throws 키워드
 	// : 해당 메서드가 특정 예외를 던질 수 있음을 나타냄(가능성)
+	
+	// >> 해당 메서드가 throws 예외를 던질 수 있으니 해당 메서드를 호출한 쪽에서
+	//    , 해당 예외를 처리하도록 명시한 내용
 	public void borrowBook() throws BookAlreadyBorrowedException {
 		if (!isAvailable) {
 			throw new BookAlreadyBorrowedException(this.title + "(은)는 이미 대여 중입니다.");
