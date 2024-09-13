@@ -43,14 +43,28 @@ class School {
 			System.out.println("과목 " + subject);
 		}
 	}
-	
-	class Teacher {
-		
-	}
+
 }
 
 public class A_Inner02 {
 	public static void main(String[] args) {
+		// 학교 객체 생성
+		School school = new School("유성 초등학교");
 		
+		// 학생 객체 생성
+		School.Student student1 = school.new Student("이승아", 1001);
+		School.Student student2 = school.new Student("이도경", 1002);
+		
+		// 교사 객체 생성
+		School.Teacher teacther1 = school.new Teacher("김준일", "수학");
+		School.Teacher teacther2 = school.new Teacher("서지훈", "국어");
+		
+		// == 학생 정보 출력 ==
+		student1.displayInfo();
+		student2.displayInfo();
+		
+		// == 교사 정보 출력 ==
+		teacther1.displayInfo();
+		teacther2.displayInfo();
 	}
 }
