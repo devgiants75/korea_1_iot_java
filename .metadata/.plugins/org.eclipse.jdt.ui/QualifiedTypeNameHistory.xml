@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chapter06.DogClass"/>
-    <fullyQualifiedTypeName name="chapter06.AnimalClass"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="chapter06.CatClass"/>
-    <fullyQualifiedTypeName name="chapter07.PrivateClass"/>
-    <fullyQualifiedTypeName name="chapter07.DefaultClass"/>
-    <fullyQualifiedTypeName name="otherPackage.ParentClass"/>
-    <fullyQualifiedTypeName name="chapter07.ProtectedClass"/>
-    <fullyQualifiedTypeName name="chapter07.A_Modifier"/>
-    <fullyQualifiedTypeName name="chapter07.Example"/>
     <fullyQualifiedTypeName name="chapter07.Student"/>
     <fullyQualifiedTypeName name="chapter07.MyFinalClass"/>
     <fullyQualifiedTypeName name="chapter07.ChildClass"/>
@@ -54,10 +44,20 @@
     <fullyQualifiedTypeName name="chapter14.model.OrderModel"/>
     <fullyQualifiedTypeName name="chapter14.view.OrderView"/>
     <fullyQualifiedTypeName name="chapter14.controller.OrderController"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="chapter15.PaperBook"/>
     <fullyQualifiedTypeName name="chapter15.BookAlreadyBorrowedException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="chapter16.OuterClass.InnerClass"/>
+    <fullyQualifiedTypeName name="chapter16.OuterClass"/>
+    <fullyQualifiedTypeName name="chapter16.OuterClass.StaticClass"/>
+    <fullyQualifiedTypeName name="MethodClass"/>
+    <fullyQualifiedTypeName name="chapter16.AbstractClass"/>
+    <fullyQualifiedTypeName name="chapter16.School.Student"/>
+    <fullyQualifiedTypeName name="chapter16.School.Teacher"/>
+    <fullyQualifiedTypeName name="chapter16.A"/>
+    <fullyQualifiedTypeName name="chapter16.Student"/>
+    <fullyQualifiedTypeName name="chapter16.Grading"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
