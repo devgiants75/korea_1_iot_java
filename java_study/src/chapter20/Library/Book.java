@@ -16,6 +16,12 @@ public class Book {
 	private String author;
 	private int year;
 	
+	public Book(String title, String author, int year) {
+		this.title = title;
+		this.author = author;
+		this.year = year;
+	}
+	
 //	@Data: Getter/Setter, ToString, Equals, HashCode를 포함
 //	@NoArgsConstructor: 파라미터가 없는 기본 생성자를 생성
 //	@AllArgsConstructor: 모든 필드를 받는 생성자를 자동 생성
