@@ -22,5 +22,33 @@ package chapter20.Library;
 // Book: 도서의 데이터를 관리하는 클래스
 
 public class Main {
+	public static void main(String[] args) {
+		BookRepository bookRepository = new BookRepository();
+		BookService bookService = new BookService(bookRepository);
+		BookController bookController = new BookController(bookService);
+		
+		bookController.addBook("자바 한 번에 끝내기", "이도경", 2023);
+		bookController.addBook("자바스크립트 한 번에 끝내기", "이승아", 2020);
+		bookController.addBook("리액트 한 번에 끝내기", "김준일", 2021);
+		bookController.addBook("SQL 한 번에 끝내기", "서지훈", 2024);
+		
+		System.out.println("=== 모든 도서 목록 ===");
+		bookController.getAllBooks().forEach(System.out::println);
+		
+		System.out.println("=== 특정 id 도서 조회 ===");
+		Book book = bookController.getBook(2);
+		System.out.println("조회한 도서:" + book);
+		
+		System.out.println("=== 특정 id 도서 수정 ===");
+		bookController.updateBook(2, "스프링 한 번에 끝내기 ", "이승아", 2021);
+		System.out.println("수정 후 도서:" + bookController.getBook(2));
+		
+		System.out.println("=== 특정 id 도서 삭제 ===");
+		bookController.deleteBook(2);
+		bookController.getAllBooks().forEach(System.out::println);
 
+		System.out.println("-- 추가 후 전체 출력 --");
+		bookController.addBook("안녕하세요", "이도경", 2022);
+		bookController.getAllBooks().forEach(System.out::println);
+	}
 }
