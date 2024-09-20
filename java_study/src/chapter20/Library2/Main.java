@@ -1,5 +1,7 @@
 package chapter20.Library2;
 
+import chapter20.Library2.controller.LibraryController;
+
 // === Library2 패키지 ===
 
 // 1. 프로젝트 개요
@@ -43,6 +45,7 @@ package chapter20.Library2;
 
 public class Main {
 	public static void main(String[] args) {
-		
+		LibraryController controller = new LibraryController();
+		controller.start();
 	}
 }
