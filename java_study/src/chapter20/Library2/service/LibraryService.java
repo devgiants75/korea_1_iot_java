@@ -25,6 +25,8 @@ public class LibraryService {
 			// 책을 대여할 수 있는 상태
 			book.setBorrowed(true);
 			System.out.println(user.getName() + "님이" + book.getTitle() + "을(를) 대여하였습니다.");
+		} else {
+			System.out.println("대여불가: 사용자가 존재하지 않거나 도서가 이미 대여 중입니다.");
 		}
 	}
 
