@@ -24,4 +24,5 @@ public class BookRepository {
 	public List<Book> findAllBooks() {
 		return books;
 	}
+
 }
