@@ -1,7 +1,8 @@
 package example;
 
 class Parent {
-    int x = 100;
+    int x = 100; // 500
+    
     Parent() {
         this(500);
     }
@@ -14,21 +15,37 @@ class Parent {
         return x;
     }
 }
- 
+/*
+	Parent p1 = new Parent();
+	// Parent(500);
+	// p1.x = 500;
+	
+	Parent p2 = new Parent(300);
+	// p2.x = 300;
+*/
 class Child extends Parent {
-    int x = 4000;
+    int x = 4000; // 5000
+    
     Child() {
+    	// super();
         this(5000);
     }
  
     Child(int x) {
+    	// super();
         this.x = x;
     }
+    
+//    @Override
+//    int getX() {
+//        return x;
+//    }
 }
  
 public class Example01 {
     public static void main(String[] args) {
         Child obj = new Child();
         System.out.println(obj.getX());
+        System.out.println(obj.x);
     }
 }
